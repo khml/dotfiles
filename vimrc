@@ -27,3 +27,6 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 "setting for bracket
 set showmatch
 
+"complement
+set wildmode=list:longest
+
