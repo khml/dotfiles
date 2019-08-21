@@ -11,6 +11,8 @@ set number
 set cursorline
 set virtualedit=onemore
 set showcmd
+syntax on
+set laststatus=2
 
 "setting for indent
 set smartindent
