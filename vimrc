@@ -30,3 +30,11 @@ set showmatch
 "complement
 set wildmode=list:longest
 
+"setting for search
+set hlsearch
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
+set ignorecase
+set smartcase
+set incsearch
+set wrapscan
+
