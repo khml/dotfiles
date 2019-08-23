@@ -28,6 +28,10 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 "setting for bracket
 set showmatch
 
+"setting for copy and paste
+nnoremap Y y$
+noremap PP "0p
+
 "complement
 set wildmode=list:longest
 
