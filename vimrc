@@ -13,6 +13,8 @@ set virtualedit=onemore
 set showcmd
 syntax on
 set laststatus=2
+set display=lastline
+set pumheight=10
 
 "setting for indent
 set autoindent
