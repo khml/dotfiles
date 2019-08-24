@@ -27,6 +27,9 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 "setting for bracket
 set showmatch
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
 
 "setting for copy and paste
 nnoremap Y y$
