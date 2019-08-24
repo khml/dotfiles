@@ -15,11 +15,13 @@ syntax on
 set laststatus=2
 
 "setting for indent
+set autoindent
 set smartindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set autoindent
+vnoremap > >gv
+vnoremap < <gv
 
 "visualize controll characters
 set list
