@@ -27,6 +27,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 "setting for bracket
 set showmatch
+set matchtime=1
 inoremap { {}<Left>
 inoremap [ []<Left>
 inoremap ( ()<Left>
