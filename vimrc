@@ -13,13 +13,17 @@ set virtualedit=onemore
 set showcmd
 syntax on
 set laststatus=2
+set display=lastline
+set pumheight=10
 
 "setting for indent
+set autoindent
 set smartindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set autoindent
+vnoremap > >gv
+vnoremap < <gv
 
 "visualize controll characters
 set list
@@ -27,6 +31,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 "setting for bracket
 set showmatch
+set matchtime=1
 inoremap { {}<Left>
 inoremap [ []<Left>
 inoremap ( ()<Left>
