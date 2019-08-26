@@ -1,5 +1,7 @@
 "encoding
 set fenc=utf-8
+scriptencoding utf-8
+set ambiwidth=double "prevent characters broken
 
 "setting for file load
 set nobackup
