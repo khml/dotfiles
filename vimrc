@@ -27,6 +27,14 @@ set shiftwidth=4
 vnoremap > >gv
 vnoremap < <gv
 
+"setting for cursor move
+set backspace=indent,eol,start
+set whichwrap=b,s,h,l,<,>,[,],~
+inoremap <C-a> <Esc>^i
+inoremap <C-e> <Esc>$a
+noremap <C-a> <Esc>^i
+noremap <C-e> <Esc>$a
+
 "visualize controll characters
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
