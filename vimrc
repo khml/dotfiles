@@ -1,5 +1,7 @@
 "encoding
 set fenc=utf-8
+scriptencoding utf-8
+set ambiwidth=double "prevent characters broken
 
 "setting for file load
 set nobackup
@@ -24,6 +26,14 @@ set tabstop=4
 set shiftwidth=4
 vnoremap > >gv
 vnoremap < <gv
+
+"setting for cursor move
+set backspace=indent,eol,start
+set whichwrap=b,s,h,l,<,>,[,],~
+inoremap <C-a> <Esc>^i
+inoremap <C-e> <Esc>$a
+noremap <C-a> <Esc>^i
+noremap <C-e> <Esc>$a
 
 "visualize controll characters
 set list
