@@ -3,11 +3,11 @@ set fenc=utf-8
 scriptencoding utf-8
 set ambiwidth=double "prevent characters broken
 
- "color scheme↲
- if filereadable( $HOME . "/.vim/colors/patagonia.vim" )↲
-   set t_Co=256↲
-   colorscheme patagonia↲
- endif↲
+"color scheme↲
+if filereadable( $HOME . "/.vim/colors/patagonia.vim" )↲
+    set t_Co=256↲
+    colorscheme patagonia↲
+endif↲
 
 "setting for file load
 set nobackup
