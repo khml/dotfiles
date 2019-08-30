@@ -67,3 +67,11 @@ set smartcase
 set incsearch
 set wrapscan
 
+"setting for tab page
+set showtabline=2
+map <silent> <TAB>c :tablast <bar> tabnew<CR>
+map <silent> <TAB>x :tabclose<CR>
+map <silent> <TAB>n :tabnext<CR>
+map <silent> <TAB><TAB> :tabnext<CR>
+map <silent> <TAB>p :tabprevious<CR>
+
