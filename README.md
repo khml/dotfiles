@@ -16,4 +16,6 @@ $ mkdir ~/.vim/colors
 $ cp patagonia-vim/colors/* ~/.vim/colors/
 ```
 
+## .gitconfig
+copy and past from gitconfig's alias
 
