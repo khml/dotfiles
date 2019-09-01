@@ -67,6 +67,12 @@ set smartcase
 set incsearch
 set wrapscan
 
+"setting for netrw
+let g:netrw_liststyle = 3
+let g:netrw_altv = 1
+let g:netrw_alto = 1
+let g:netrw_winsize = 85
+
 "setting for tab page
 set showtabline=2
 map <silent> <TAB>c :tablast <bar> tabnew<CR>
