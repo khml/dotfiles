@@ -9,6 +9,13 @@ if filereadable( $HOME . "/.vim/colors/patagonia.vim" )↲
     colorscheme patagonia↲
 endif↲
 
+"setting for ctags
+set fileformats=unix,dos,mac
+set fileencodings=utf-8,sjis
+set tags=./tags;$HOME
+nnoremap <C-]> g<C-]>
+inoremap <C-]> <ESC>g<C-]>
+
 "setting for file load
 set nobackup
 set autoread
