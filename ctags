@@ -1,0 +1,6 @@
+--sort=yes
+--input-encoding=utf-8
+--input-encoding-c=sjis
+--input-encoding-vim=utf-8
+--input-encoding-go=utf-8
+

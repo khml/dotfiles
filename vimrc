@@ -9,6 +9,13 @@ if filereadable( $HOME . "/.vim/colors/patagonia.vim" )↲
     colorscheme patagonia↲
 endif↲
 
+"setting for ctags
+set fileformats=unix,dos,mac
+set fileencodings=utf-8,sjis
+set tags=./tags;$HOME
+nnoremap <C-]> g<C-]>
+inoremap <C-]> <ESC>g<C-]>
+
 "setting for file load
 set nobackup
 set autoread
@@ -66,6 +73,12 @@ set ignorecase
 set smartcase
 set incsearch
 set wrapscan
+
+"setting for netrw
+let g:netrw_liststyle = 3
+let g:netrw_altv = 1
+let g:netrw_alto = 1
+let g:netrw_winsize = 85
 
 "setting for tab page
 set showtabline=2
