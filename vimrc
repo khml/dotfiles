@@ -58,6 +58,9 @@ set matchtime=1
 inoremap { {}<Left>
 inoremap [ []<Left>
 inoremap ( ()<Left>
+inoremap " ""<Left>
+inoremap ' ''<Left>
+inoremap ` `<Left>
 
 "setting for copy and paste
 nnoremap Y y$
