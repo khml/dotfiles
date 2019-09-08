@@ -20,6 +20,7 @@ inoremap <C-]> <ESC>g<C-]>
 set nobackup
 set autoread
 set hidden
+set noswapfile
 
 "setting for visual
 set number
