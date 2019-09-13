@@ -1,2 +1,10 @@
 [alias]
 	graph = log --graph --all --pretty=oneline
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
