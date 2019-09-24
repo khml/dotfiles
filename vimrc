@@ -91,5 +91,6 @@ map <silent> <TAB>c :tablast <bar> tabnew<CR>
 map <silent> <TAB>x :tabclose<CR>
 map <silent> <TAB>n :tabnext<CR>
 map <silent> <TAB><TAB> :tabnext<CR>
+map <silent> <END> :tabnext<CR>
 map <silent> <TAB>p :tabprevious<CR>
-
+map <silent> <HOME> :tabprevious<CR>
