@@ -61,7 +61,7 @@ inoremap [ []<Left>
 inoremap ( ()<Left>
 inoremap " ""<Left>
 inoremap ' ''<Left>
-inoremap ` ```<Left>
+inoremap ` ``<Left>
 inoremap <<Enter> <><Left>
 
 "setting for copy and paste
