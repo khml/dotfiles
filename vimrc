@@ -87,10 +87,10 @@ let g:netrw_winsize = 85
 
 "setting for tab page
 set showtabline=2
-map <silent> <TAB>c :tablast <bar> tabnew<CR>
-map <silent> <TAB>x :tabclose<CR>
-map <silent> <TAB>n :tabnext<CR>
-map <silent> <TAB><TAB> :tabnext<CR>
-map <silent> <END> :tabnext<CR>
-map <silent> <TAB>p :tabprevious<CR>
-map <silent> <HOME> :tabprevious<CR>
+noremap <silent> <TAB>c :tablast <bar> tabnew<CR>
+noremap <silent> <TAB>x :tabclose<CR>
+noremap <silent> <TAB>n :tabnext<CR>
+noremap <silent> <TAB><TAB> :tabnext<CR>
+noremap <silent> <END> :tabnext<CR>
+noremap <silent> <TAB>p :tabprevious<CR>
+noremap <silent> <HOME> :tabprevious<CR>
