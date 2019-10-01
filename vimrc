@@ -90,7 +90,7 @@ set showtabline=2
 noremap <silent> <TAB>c :tablast <bar> tabnew<CR>
 noremap <silent> <TAB>x :tabclose<CR>
 noremap <silent> <TAB>n :tabnext<CR>
+noremap <silent> <TAB>p :tabprevious<CR>
 noremap <silent> <TAB><TAB> :tabnext<CR>
 noremap <silent> <END> :tabnext<CR>
-noremap <silent> <TAB>p :tabprevious<CR>
 noremap <silent> <HOME> :tabprevious<CR>
