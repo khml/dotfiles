@@ -65,6 +65,7 @@ inoremap ` ``<Left>
 inoremap <<Enter> <><Left>
 
 "setting for copy and paste
+set pastetoggle=<F10>
 nnoremap Y y$
 noremap PP "0p
 
