@@ -63,6 +63,9 @@ inoremap " ""<Left>
 inoremap ' ''<Left>
 inoremap ` ``<Left>
 inoremap <<Enter> <><Left>
+inoremap {<Enter> {}<Left><CR><Up><Esc>$a<CR><TAB>
+inoremap [<Enter> []<Left><CR><Up><Esc>$a<CR><TAB>
+inoremap (<Enter> ()<Left><CR><Up><Esc>$a<CR><TAB>
 
 "setting for copy and paste
 set pastetoggle=<F10>
