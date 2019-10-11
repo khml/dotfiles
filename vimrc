@@ -101,3 +101,7 @@ noremap <silent> <HOME> :tabprevious<CR>
 noremap <silent> 0 :tabnext<CR>
 noremap <silent> 1 :tabprevious<CR>
 noremap <silent> 2 :tablast <bar> tabnew<CR>
+
+" spelling
+set spell
+set spelllang=en,cjk
