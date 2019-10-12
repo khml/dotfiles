@@ -113,3 +113,7 @@ endif
 
 " scroll
 set scrolloff=5
+
+" page
+noremap [ <PageUp>
+noremap ] <PageDown>
