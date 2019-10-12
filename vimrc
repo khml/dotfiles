@@ -98,3 +98,6 @@ noremap <silent> <TAB>p :tabprevious<CR>
 noremap <silent> <TAB><TAB> :tabnext<CR>
 noremap <silent> <END> :tabnext<CR>
 noremap <silent> <HOME> :tabprevious<CR>
+noremap <silent> 0 :tabnext<CR>
+noremap <silent> 1 :tabprevious<CR>
+noremap <silent> 2 :tablast <bar> tabnew<CR>
