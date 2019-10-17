@@ -105,3 +105,6 @@ noremap <silent> 2 :tablast <bar> tabnew<CR>
 " spelling
 set spell
 set spelllang=en,cjk
+
+if has("autocmd")
+endif
