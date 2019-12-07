@@ -101,6 +101,8 @@ noremap <silent> <HOME> :tabprevious<CR>
 noremap <silent> 0 :tabnext<CR>
 noremap <silent> 1 :tabprevious<CR>
 noremap <silent> 2 :tablast <bar> tabnew<CR>
+noremap <silent> - :tabclose<CR>
+noremap <silent> + :tablast <bar> tabnew<CR>
 
 " spelling
 set spell
