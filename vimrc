@@ -35,7 +35,7 @@ set pumheight=10
 
 "setting for indent
 set autoindent
-""set smartindent
+"set smartindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -50,7 +50,7 @@ inoremap <C-e> <Esc>$a
 noremap <C-a> <Esc>^i
 noremap <C-e> <Esc>$a
 
-"visualize controll characters
+"visualize control characters
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
