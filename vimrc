@@ -15,6 +15,7 @@ set fileencodings=utf-8,sjis
 set tags=./tags;$HOME
 nnoremap <C-]> g<C-]>
 inoremap <C-]> <ESC>g<C-]>
+nnoremap <F3> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
 
 "setting for file load
 set nobackup
