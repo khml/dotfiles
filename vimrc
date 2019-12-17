@@ -110,3 +110,6 @@ set spelllang=en,cjk
 
 if has("autocmd")
 endif
+
+" scroll
+set scrolloff=5
