@@ -3,11 +3,11 @@ set fenc=utf-8
 scriptencoding utf-8
 set ambiwidth=double "prevent characters broken
 
-"color scheme↲
-if filereadable( $HOME . "/.vim/colors/patagonia.vim" )↲
-    set t_Co=256↲
-    colorscheme patagonia↲
-endif↲
+"color scheme
+if filereadable( $HOME . "/.vim/colors/patagonia.vim" )
+    set t_Co=256
+    colorscheme patagonia
+endif
 
 "setting for ctags
 set fileformats=unix,dos,mac
@@ -16,6 +16,7 @@ set tags=./tags;$HOME
 nnoremap <C-]> g<C-]>
 inoremap <C-]> <ESC>g<C-]>
 nnoremap <F3> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
+
 
 "setting for file load
 set nobackup
@@ -75,6 +76,12 @@ noremap PP "0p
 
 "complement
 set wildmode=list:longest
+"unstable func
+set completeopt=menuone
+for k in split("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",'\zs')
+  exec "imap " . k . " " . k . "<C-N><C-P>"
+endfor
+imap <expr> <TAB> pumvisible() ? "\<Down>" : "\<Tab>"
 
 "setting for search
 set hlsearch
@@ -89,6 +96,17 @@ let g:netrw_liststyle = 3
 let g:netrw_altv = 1
 let g:netrw_alto = 1
 let g:netrw_winsize = 85
+noremap ee :e.<CR>
+
+"fold
+set foldmethod=indent
+set foldlevel=10
+set foldcolumn=3
+noremap ff zc
+noremap f1 zr
+noremap f0 zR
+noremap f8 zm
+noremap f9 zM
 
 "setting for tab page
 set showtabline=2
@@ -108,13 +126,12 @@ noremap <silent> + :tablast <bar> tabnew<CR>
 " spelling
 set spell
 set spelllang=en,cjk
+inoremap <C-F> <C-X>s
+noremap <C-F> i<C-X>s
 
-if has("autocmd")
-endif
+" page"
+noremap [ <PageUp>
+noremap ] <PageDown>
 
 " scroll
 set scrolloff=5
-
-" page
-noremap [ <PageUp>
-noremap ] <PageDown>
